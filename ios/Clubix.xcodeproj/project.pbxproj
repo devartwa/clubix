@@ -12,8 +12,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		43D6B731EF614F6587852AE9 /* Archivo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C96E79A8D04071A61E16CD /* Archivo-SemiBold.ttf */; };
+		5778BA8D2E30495799835077 /* Archivo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2992B29E154646BB901C391F /* Archivo-Regular.ttf */; };
+		61A80764ED9C4FE99752E7BC /* Archivo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0F87BA699704A75A9BA5296 /* Archivo-Medium.ttf */; };
+		654E6F23F6004299947571AD /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87260112FF774E3F97665125 /* Inter-Medium.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Clubix-ClubixTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Clubix-ClubixTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F3AE58A32A6E88D200E47A0A /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F3AE58A22A6E88D200E47A0A /* Fonts */; };
+		FEB8EA0AE8FF468AAC3F07E7 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 259CB59AEDFE4B34BBC4DE70 /* Inter-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +43,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Clubix/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Clubix/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Clubix-ClubixTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clubix-ClubixTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259CB59AEDFE4B34BBC4DE70 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		2992B29E154646BB901C391F /* Archivo-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Archivo-Regular.ttf"; path = "../assets/fonts/Archivo-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Clubix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubix.debug.xcconfig"; path = "Target Support Files/Pods-Clubix/Pods-Clubix.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Clubix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubix.release.xcconfig"; path = "Target Support Files/Pods-Clubix/Pods-Clubix.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Clubix-ClubixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubix-ClubixTests.debug.xcconfig"; path = "Target Support Files/Pods-Clubix-ClubixTests/Pods-Clubix-ClubixTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Clubix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clubix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Clubix/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87260112FF774E3F97665125 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Clubix-ClubixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubix-ClubixTests.release.xcconfig"; path = "Target Support Files/Pods-Clubix-ClubixTests/Pods-Clubix-ClubixTests.release.xcconfig"; sourceTree = "<group>"; };
+		97C96E79A8D04071A61E16CD /* Archivo-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Archivo-SemiBold.ttf"; path = "../assets/fonts/Archivo-SemiBold.ttf"; sourceTree = "<group>"; };
+		B0F87BA699704A75A9BA5296 /* Archivo-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Archivo-Medium.ttf"; path = "../assets/fonts/Archivo-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F3AE58A22A6E88D200E47A0A /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0BFC52EFA48B4A148E8BAA5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0F87BA699704A75A9BA5296 /* Archivo-Medium.ttf */,
+				2992B29E154646BB901C391F /* Archivo-Regular.ttf */,
+				97C96E79A8D04071A61E16CD /* Archivo-SemiBold.ttf */,
+				87260112FF774E3F97665125 /* Inter-Medium.ttf */,
+				259CB59AEDFE4B34BBC4DE70 /* Inter-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* Clubix */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +140,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				F3AE58A22A6E88D200E47A0A /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Clubix */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ClubixTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0BFC52EFA48B4A148E8BAA5B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -242,8 +268,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AE58A32A6E88D200E47A0A /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				61A80764ED9C4FE99752E7BC /* Archivo-Medium.ttf in Resources */,
+				5778BA8D2E30495799835077 /* Archivo-Regular.ttf in Resources */,
+				43D6B731EF614F6587852AE9 /* Archivo-SemiBold.ttf in Resources */,
+				654E6F23F6004299947571AD /* Inter-Medium.ttf in Resources */,
+				FEB8EA0AE8FF468AAC3F07E7 /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

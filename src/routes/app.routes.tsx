@@ -8,7 +8,11 @@ const {Navigator, Screen} = createNativeStackNavigator();
 
 export function AppRoutes() {
   return (
-    <Navigator>
+    <Navigator
+      screenOptions={{
+        headerShown: false,
+        gestureEnabled: false,
+      }}>
       <Screen name="Splash" component={Splash} />
     </Navigator>
   );
